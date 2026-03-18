@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { menu } from "@/app/dashboard/menu";
+import { menu } from "@/app/(dashboard)/menu";
 
 export default function Sidebar() {
   return (
