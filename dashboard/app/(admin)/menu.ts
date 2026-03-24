@@ -1,7 +1,8 @@
 export const menu = [
     {
     name: "Dashboard",
-    path: "/",
+    path: "/dashboard",
+    
     
   },
   {
