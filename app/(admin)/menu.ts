@@ -2,21 +2,11 @@ export const menu = [
     {
     name: "Dashboard",
     path: "/dashboard",
-    
-    
   },
   {
-    name: "Users",
-    path: "/user",
+    name: "Category Management",
     submenu: [
-      { name: "Add User", path: "/user/add" }
-    ]
-  },
-  {
-    name: "Settings",
-    path: "/settings",
-    submenu: [
-      { name: "Profiles", path: "/settings/profile" }
+      { name: "Add Category", path: "/category/add" }
     ]
   }
 ];
