@@ -222,7 +222,7 @@ export default function Sidebar() {
             </div>
             <div className="min-w-0 flex-1">
               <p className="truncate text-sm font-semibold text-zinc-900 dark:text-zinc-50">
-                Acme HQ
+                Acme HQs
               </p>
               <p className="text-[10px] text-zinc-500 dark:text-zinc-400">Admin panelsss </p>
             </div>
