@@ -92,15 +92,7 @@ export default function Sidebar() {
                         : "text-zinc-600 hover:bg-zinc-100 hover:text-zinc-900 dark:text-zinc-400 dark:hover:bg-zinc-800 dark:hover:text-zinc-50"
                     } ${collapsed ? "justify-center" : ""}`}
                   >
-                    {item.icon && (
-                      <item.icon
-                        className={`h-4 w-4 flex-shrink-0 ${
-                          active
-                            ? "text-zinc-900 dark:text-zinc-50"
-                            : "text-zinc-500 dark:text-zinc-400"
-                        }`}
-                      />
-                    )}
+                   
                     {!collapsed && (
                       <>
                         <span className="flex-1 text-left font-medium">{item.name}</span>
@@ -148,15 +140,7 @@ export default function Sidebar() {
                       : "text-zinc-600 hover:bg-zinc-100 hover:text-zinc-900 dark:text-zinc-400 dark:hover:bg-zinc-800 dark:hover:text-zinc-50"
                   } ${collapsed ? "justify-center" : ""}`}
                 >
-                  {item.icon && (
-                    <item.icon
-                      className={`h-4 w-4 flex-shrink-0 ${
-                        isActive(item.path)
-                          ? "text-zinc-900 dark:text-zinc-50"
-                          : "text-zinc-500 dark:text-zinc-400"
-                      }`}
-                    />
-                  )}
+                  
                   {!collapsed && (
                     <span className="font-medium">{item.name}</span>
                   )}
@@ -262,13 +246,9 @@ export default function Sidebar() {
                             : "text-zinc-600 hover:bg-zinc-100 hover:text-zinc-900 dark:text-zinc-400 dark:hover:bg-zinc-800 dark:hover:text-zinc-50"
                         }`}
                       >
-                        {item.icon && <item.icon className="h-4 w-4 flex-shrink-0 text-zinc-500" />}
+                  
                         <span className="flex-1 text-left font-medium">{item.name}</span>
-                        <ChevronRight
-                          className={`h-3.5 w-3.5 flex-shrink-0 text-zinc-400 transition-transform duration-200 ${
-                            open ? "rotate-90" : ""
-                          }`}
-                        />
+                        
                       </button>
                       <div
                         className={`overflow-hidden transition-all duration-200 ease-in-out ${
@@ -301,7 +281,7 @@ export default function Sidebar() {
                           : "text-zinc-600 hover:bg-zinc-100 hover:text-zinc-900 dark:text-zinc-400 dark:hover:bg-zinc-800 dark:hover:text-zinc-50"
                       }`}
                     >
-                      {item.icon && <item.icon className="h-4 w-4 flex-shrink-0 text-zinc-500" />}
+                      
                       <span className="font-medium">{item.name}</span>
                     </Link>
                   )}
