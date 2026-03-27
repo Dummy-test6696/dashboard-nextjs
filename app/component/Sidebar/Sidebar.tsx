@@ -57,7 +57,7 @@ export default function Sidebar() {
             <p className="truncate text-sm font-semibold text-zinc-900 dark:text-zinc-50">
               Acme HQ
             </p>
-            <p className="text-[10px] text-zinc-500 dark:text-zinc-400">Admin panel</p>
+            <p className="text-[10px] text-zinc-500 dark:text-zinc-400">Admin panelsss</p>
           </div>
         )}
         {/* Desktop collapse toggle */}
